@@ -40,17 +40,17 @@ export default function FullArticle({ article }) {
       
     const options = {
         renderNode: {
-            [BLOCKS.EMBEDDED_ASSET]: (node) => {
-            const { file } = node.data.target.fields;
-            return (
-                <Image 
-                    src={'https:' + file.url}
-                    width={file.details.image.width}
-                    height={file.details.image.height}
-                />
-            )
+            [BLOCKS.EMBEDDED_ASSET]: function NodeType(node) {
+                const { file } = node.data.target.fields;
+                return (
+                    <Image 
+                        src={'https:' + file.url}
+                        width={file.details.image.width}
+                        height={file.details.image.height}
+                    />
+                )
+            }
         }
-    }
     };
 
     return (<>
