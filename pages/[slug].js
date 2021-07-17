@@ -40,7 +40,7 @@ export async function getStaticProps({ params }) {
 export default function FullArticle({ article }) {
     if(!article) return <Skeleton />;
 
-    const {featuredImage, title, readingTime, category, categorySlug, content} = article.fields;
+    const {featuredImage, title, readingTime, category, content} = article.fields;
       
     const options = {
         renderNode: {
@@ -57,6 +57,12 @@ export default function FullArticle({ article }) {
         }
     };
 
+    function slugTransformation(oldStr) {
+        let reg = / /g;
+        let newStr = oldStr.replace(reg, "-");
+        return newStr.toLowerCase();
+    }
+
     return (<>
         <div className="article-header">
             <Image 
@@ -67,8 +73,8 @@ export default function FullArticle({ article }) {
             <h1>{ title }</h1>
             <p className="info">
                 <span>{ readingTime } minute read</span>
-                {category.map((cat, i) => (
-                    <Link href={"/" + categorySlug[i]} key={cat}><a>{ cat }</a></Link>                
+                {category.map((cat) => (                    
+                    <Link href={"/" + slugTransformation(cat)} key={cat}><a>{ cat }</a></Link>                
                 ))}
             </p>
         </div>
