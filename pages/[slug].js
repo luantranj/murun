@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
+import Skeleton from "../components/Skeleton";
 
 const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -20,7 +21,7 @@ export async function getStaticPaths() {
 
     return {
         paths,
-        fallback: false
+        fallback: true
     }
 }
 
@@ -37,6 +38,8 @@ export async function getStaticProps({ params }) {
 }
 
 export default function FullArticle({ article }) {
+    if(!article) return <Skeleton />;
+
     const {featuredImage, title, readingTime, category, categorySlug, content} = article.fields;
       
     const options = {
