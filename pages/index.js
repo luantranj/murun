@@ -10,9 +10,8 @@ export async function getStaticProps() {
   const res = await client.getEntries({ content_type: 'murupost' });
 
   return {
-    props: {
-      articles: res.items,
-    }
+    props: { articles: res.items },
+    revalidate: 60
   }
 }
 
