@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     </Head>
     <Layout>
       <Component {...pageProps} />
