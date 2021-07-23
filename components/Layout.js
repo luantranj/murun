@@ -26,7 +26,7 @@ export default function Layout({ children }) {
 		</div>
 
 
-		<footer className="container-fluid bg-primary fixed-bottom">
+		<footer className="container-fluid bg-primary">
 			<div className="container mt-5 p-5 text-light">
 				<div className="row justify-content-center">
 					<div className="col-md-3">
