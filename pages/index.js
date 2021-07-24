@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
+import ArticleCard from '../components/ArticleCard';
 
 export default function Home() {
 	return(<>
@@ -8,7 +10,7 @@ export default function Home() {
 			<meta name="description" content="Empower Your Run helps you crush all your running goals! Training advice, tips for overcoming running injuries, equipment reviews, and more – all in one place!" />
 		</Head>
 
-		{ /* Intro (main image & intro text): start */ }
+		{ /* Intro (main image & intro text) */ }
 
 		<div className="intro py-5 bg-primary">
 			<div className="container-lg">
@@ -28,5 +30,52 @@ export default function Home() {
 			</div> { /* Container */ }
 		</div> { /* Intro: end */ }
 
+
+		{ /* Recent Article */ }
+
+		<div className="recent-articles py-5">
+			<div className="container-fluid text-center">
+				<div className="row justify-content-center">
+					<ArticleCard 
+						category="GADGETS"
+						catlink="gadgets"
+						title="Best Running Shoes for Flat Feet in 2021"
+						slug="best-running-shoes-for-flat-feet"
+						auimg="instagram.png"
+						author="Dominic T."
+						aulink="dominic"
+						minread="30"
+					/>
+
+					<ArticleCard 
+						category="GADGETS"
+						catlink="gadgets"
+						title="Best Running Shoes for Flat Feet in 2021"
+						slug="best-running-shoes-for-flat-feet"
+						auimg="instagram.png"
+						author="Dominic T."
+						aulink="dominic"
+						minread="30"
+					/>
+
+					<ArticleCard 
+						category="GADGETS"
+						catlink="gadgets"
+						title="Best Running Shoes for Flat Feet in 2021"
+						slug="best-running-shoes-for-flat-feet"
+						auimg="instagram.png"
+						author="Dominic T."
+						aulink="dominic"
+						minread="30"
+					/>
+				</div> { /* Row of Contents: end */ }
+			</div> { /* container: end */ }
+
+			<div className="container-fluid text-center">
+				<div className="d-grid col-6 mx-auto">
+						<Link href="/"><a className="btn btn-outline-primary btn-lg fw-bold border-3">SEE ALL ARTICLES</a></Link>
+				</div> { /* button: end */ }
+			</div> { /* Show more articles button: end */ }
+		</div> { /* Recent Articles: end */ }
 	</>)
 }

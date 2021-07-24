@@ -21,7 +21,7 @@ export default function Layout({ children }) {
 		</Navbar>
 
 		
-		<div className="page-content" style={ { minHeight: '100vh' } }
+		<div className="page-content" style={ { minHeight: '100vh' } } >
 			{ children }
 		</div>
 
