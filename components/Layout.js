@@ -15,7 +15,7 @@ export default function Layout({ children }) {
 				<Nav>
 					<Nav.Link href="/" className="mx-4 text-light">Home</Nav.Link>
 					<Nav.Link href="/about" className="mx-4 text-light">About</Nav.Link>
-					<Nav.Link href="/learn" className="mx-4 text-light">Blog</Nav.Link>
+					<Nav.Link href="/blog" className="mx-4 text-light">Blog</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
