@@ -6,7 +6,7 @@ export default function Layout({ children }) {
 	return (<>
 		<Navbar bg="primary" expand="md" className="container-fluid align-middle px-md-5" collapseOnSelect>
 			<Navbar.Brand className="text-white fw-bold">
-				EMPOWER YOUR RUN
+				<h2 className="fw-bold"><a href="/" className="text-decoration-none text-light">EMPOWER YOUR RUN</a></h2>
 			</Navbar.Brand>
 
 			<Navbar.Toggle  className="me-1" variant="success"/>
@@ -32,18 +32,18 @@ export default function Layout({ children }) {
 					<div className="col-md-3">
 						<h5>Connect</h5>
 						<div className="mt-3">
-							<Link href="/"><a className="mx-2"><Image src="/twitter.png" width="32" height="32" alt="Twitter" /></a></Link>
-							<Link href="/"><a className="mx-2"><Image src="/instagram.png" width="32" height="32" alt="Instagram" /></a></Link>
-							<Link href="/"><a className="mx-2"><Image src="/youtube.png" width="32" height="32" alt="Youtube" /></a></Link>
+							<Link href="https://twitter.com/0bdominic"><a className="mx-2"><Image src="/twitter.png" width="32" height="32" alt="Twitter" /></a></Link>
+							<Link href="https://instagram.com/0bdominic"><a className="mx-2"><Image src="/instagram.png" width="32" height="32" alt="Instagram" /></a></Link>
+							<Link href="/404"><a className="mx-2"><Image src="/youtube.png" width="32" height="32" alt="Youtube" /></a></Link>
 						</div>
 					</div>
 
 					<div className="col-md-3">
 						<h5>Learn</h5>
 						<ul className="list-unstyled">
-							<li><Link href="/"><a className="link-light text-decoration-none">Training</a></Link></li>
-							<li><Link href="/"><a className="link-light text-decoration-none">Preventing Injuries</a></Link></li>
-							<li><Link href="/"><a className="link-light text-decoration-none">Gadgets</a></Link></li>
+							<li><Link href="/training"><a className="link-light text-decoration-none">Training</a></Link></li>
+							<li><Link href="/injuries"><a className="link-light text-decoration-none">Injuries</a></Link></li>
+							<li><Link href="/running-equipment"><a className="link-light text-decoration-none">Running Equipment</a></Link></li>
 						</ul>
 					</div>
 
@@ -51,8 +51,8 @@ export default function Layout({ children }) {
 						<h5>Navigate</h5>
 						<ul className="list-unstyled">
 							<li><Link href="/"><a className="link-light text-decoration-none">Home</a></Link></li>
-							<li><Link href="/"><a className="link-light text-decoration-none">About</a></Link></li>
-							<li><Link href="/"><a className="link-light text-decoration-none">Blog</a></Link></li>
+							<li><Link href="/about"><a className="link-light text-decoration-none">About</a></Link></li>
+							<li><Link href="/blog"><a className="link-light text-decoration-none">Blog</a></Link></li>
 						</ul>
 					</div>
 
@@ -60,8 +60,8 @@ export default function Layout({ children }) {
 					<div className="col-md-2">
 						<h5>Terms of Service</h5>
 						<ul className="list-unstyled">
-							<li><Link href="/"><a className="link-light text-decoration-none">Privacy Policy</a></Link></li>
-							<li><Link href="/"><a className="link-light text-decoration-none">Disclaimer</a></Link></li>
+							<li><Link href="/privacy-policy"><a className="link-light text-decoration-none">Privacy Policy</a></Link></li>
+							<li><Link href="/disclaimer"><a className="link-light text-decoration-none">Disclaimer</a></Link></li>
 						</ul>
 					</div>
 
