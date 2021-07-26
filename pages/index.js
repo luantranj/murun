@@ -39,54 +39,54 @@ export default function Home() {
 			<div className="container-fluid text-center">
 				<div className="row justify-content-center">
 					<ArticleCard 
-						category="GADGETS"
-						catlink="gadgets"
-						title="Best Running Shoes for Flat Feet in 2021"
-						slug="best-running-shoes-for-flat-feet"
-						auimg="instagram.png"
+						category="TRAINING"
+						catlink="training"
+						title="Why Am I Getting Worse At Running? Discover The Root Of Your Problem"
+						slug="why-am-i-getting-worse-at-running"
+						auimg="dominic.jpg"
 						author="Dominic T."
 						aulink="dominic"
-						minread="30"
+						minread="08"
 					/>
 
 					<ArticleCard 
 						category="GADGETS"
 						catlink="gadgets"
-						title="Best Running Shoes for Flat Feet in 2021"
-						slug="best-running-shoes-for-flat-feet"
-						auimg="instagram.png"
+						title="Training Versus Running Shoes: Solve the Dilemma Once & For All"
+						slug="training-versus-running-shoes"
+						auimg="dominic.jpg"
 						author="Dominic T."
 						aulink="dominic"
-						minread="30"
+						minread="09"
+					/>
+
+					<ArticleCard 
+						category="INJURIES"
+						catlink="injuries"
+						title="Pain on Top of the Foot after Running – How to Identify and Treat Foot Extensor Tendonitis"
+						slug="pain-on-top-of-foot-after-running"
+						auimg="dominic.jpg"
+						author="Dominic T."
+						aulink="dominic"
+						minread="09"
 					/>
 
 					<ArticleCard 
 						category="GADGETS"
 						catlink="gadgets"
-						title="Best Running Shoes for Flat Feet in 2021"
-						slug="best-running-shoes-for-flat-feet"
-						auimg="instagram.png"
+						title="Best Running Shoes for Achilles Tendonitis: Top 9 Tendon-Friendly Picks"
+						slug="best-running-shoes-for-achilles-tendonitis"
+						auimg="dominic.jpg"
 						author="Dominic T."
 						aulink="dominic"
-						minread="30"
-					/>
-
-					<ArticleCard 
-						category="GADGETS"
-						catlink="gadgets"
-						title="Best Running Shoes for Flat Feet in 2021"
-						slug="best-running-shoes-for-flat-feet"
-						auimg="instagram.png"
-						author="Dominic T."
-						aulink="dominic"
-						minread="30"
+						minread="18"
 					/>
 				</div> { /* Row of Contents: end */ }
 			</div> { /* container: end */ }
 
 			<div className="container-fluid text-center">
 				<div className="d-grid col-6 mx-auto">
-						<Link href="/"><a className="btn btn-outline-primary btn-lg fw-bold border-3">SEE ALL ARTICLES</a></Link>
+						<Link href="/blog"><a className="btn btn-outline-primary btn-lg fw-bold border-3">SEE ALL ARTICLES</a></Link>
 				</div> { /* button: end */ }
 			</div> { /* Show more articles button: end */ }
 		</div> { /* Recent Articles: end */ }
