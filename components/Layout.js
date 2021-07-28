@@ -73,7 +73,7 @@ export default function Layout({ children }) {
 					<div className="w-100 mt-4"></div>
 
 					<div className="col text-center">
-						© 2021 Empower Your Run LLC.
+						© { new Date().getFullYear() } Empower Your Run LLC.
 					</div>
 
 				</div>{ /* end: row */ }
