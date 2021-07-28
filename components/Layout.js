@@ -36,34 +36,38 @@ export default function Layout({ children }) {
 							<Link href="https://instagram.com/0bdominic"><a className="mx-2"><Image src="/instagram.png" width="32" height="32" alt="Instagram" /></a></Link>
 							<Link href="/404"><a className="mx-2"><Image src="/youtube.png" width="32" height="32" alt="Youtube" /></a></Link>
 						</div>
+						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
 
 					<div className="col-md-3">
 						<h4>Learn</h4>
-						<ul className="list-unstyled">
+						<ul className="list-unstyled d-grid gap-2">
 							<li><Link href="/training"><a className="link-light text-decoration-none">Training</a></Link></li>
 							<li><Link href="/injuries"><a className="link-light text-decoration-none">Injuries</a></Link></li>
-							<li><Link href="/running-equipment"><a className="link-light text-decoration-none">Running Equipment</a></Link></li>
-							<li><Link href="/frequently-asked-questions"><a className="link-light text-decoration-none">Frequently Asked Questions</a></Link></li>
+							<li><Link href="/running-equipment"><a className="link-light text-decoration-none">Equipment</a></Link></li>
+							<li><Link href="/frequently-asked-questions"><a className="link-light text-decoration-none">F.A.Qs</a></Link></li>
 						</ul>
+						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
 
 					<div className="col-md-3">
 						<h4>Navigate</h4>
-						<ul className="list-unstyled">
+						<ul className="list-unstyled d-grid gap-2">
 							<li><Link href="/"><a className="link-light text-decoration-none">Home</a></Link></li>
 							<li><Link href="/about"><a className="link-light text-decoration-none">About</a></Link></li>
 							<li><Link href="/blog"><a className="link-light text-decoration-none">Blog</a></Link></li>
 						</ul>
+						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
 
 
 					<div className="col-md-2">
 						<h4>Terms of Service</h4>
-						<ul className="list-unstyled">
+						<ul className="list-unstyled d-grid gap-2">
 							<li><Link href="/privacy-policy"><a className="link-light text-decoration-none">Privacy Policy</a></Link></li>
 							<li><Link href="/disclaimer"><a className="link-light text-decoration-none">Disclaimer</a></Link></li>
 						</ul>
+						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
 
 					<div className="w-100 mt-4"></div>
