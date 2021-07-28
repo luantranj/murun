@@ -11,7 +11,7 @@ export default function Layout({ children }) {
 
 			<Navbar.Toggle  className="me-1" variant="success"/>
 
-			<Navbar.Collapse className="justify-content-end">
+			<Navbar.Collapse className="justify-content-end fs-5">
 				<Nav>
 					<Nav.Link href="/" className="mx-4 text-light">Home</Nav.Link>
 					<Nav.Link href="/about" className="mx-4 text-light">About</Nav.Link>
@@ -28,9 +28,9 @@ export default function Layout({ children }) {
 
 		<footer className="container-fluid bg-primary">
 			<div className="container mt-5 p-5 text-light">
-				<div className="row justify-content-center">
+				<div className="row justify-content-center fs-5">
 					<div className="col-md-3">
-						<h5>Connect</h5>
+						<h4>Connect</h4>
 						<div className="mt-3">
 							<Link href="https://twitter.com/0bdominic"><a className="mx-2"><Image src="/twitter.png" width="32" height="32" alt="Twitter" /></a></Link>
 							<Link href="https://instagram.com/0bdominic"><a className="mx-2"><Image src="/instagram.png" width="32" height="32" alt="Instagram" /></a></Link>
@@ -39,16 +39,17 @@ export default function Layout({ children }) {
 					</div>
 
 					<div className="col-md-3">
-						<h5>Learn</h5>
+						<h4>Learn</h4>
 						<ul className="list-unstyled">
 							<li><Link href="/training"><a className="link-light text-decoration-none">Training</a></Link></li>
 							<li><Link href="/injuries"><a className="link-light text-decoration-none">Injuries</a></Link></li>
 							<li><Link href="/running-equipment"><a className="link-light text-decoration-none">Running Equipment</a></Link></li>
+							<li><Link href="/frequently-asked-questions"><a className="link-light text-decoration-none">Frequently Asked Questions</a></Link></li>
 						</ul>
 					</div>
 
 					<div className="col-md-3">
-						<h5>Navigate</h5>
+						<h4>Navigate</h4>
 						<ul className="list-unstyled">
 							<li><Link href="/"><a className="link-light text-decoration-none">Home</a></Link></li>
 							<li><Link href="/about"><a className="link-light text-decoration-none">About</a></Link></li>
@@ -58,7 +59,7 @@ export default function Layout({ children }) {
 
 
 					<div className="col-md-2">
-						<h5>Terms of Service</h5>
+						<h4>Terms of Service</h4>
 						<ul className="list-unstyled">
 							<li><Link href="/privacy-policy"><a className="link-light text-decoration-none">Privacy Policy</a></Link></li>
 							<li><Link href="/disclaimer"><a className="link-light text-decoration-none">Disclaimer</a></Link></li>
