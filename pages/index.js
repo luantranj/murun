@@ -97,17 +97,17 @@ export default function Home() {
 			<div className="container p-6">
 				<div className="text-center">
 					<h2 className="fw-bold">Best of Empower Your Run Blog</h2>
-					<p className="lead">These few articles were handpicked from over 50 posts on my blog</p>
+					<p className="fs-5">These few articles were handpicked from over 50 posts on my blog</p>
 				</div>
 
 
-				<div className="row justify-content-center justify-content-lg-between">
+				<div className="row justify-content-center justify-content-lg-between fs-5">
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
 						<h4 className="fw-bold">Flat Feet</h4>
-						<ul className="list-unstyled d-grid gap-3">
+						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -22  }}><Image src="/star.png" width="16px" height="16px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
 								<Link href="/flat-feet-exercises">
 									<a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a>
 								</Link>
@@ -120,10 +120,10 @@ export default function Home() {
 
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
-						<h5 className="fw-bold">Flat Feet</h5>
-						<ul className="list-unstyled d-grid gap-3">
+						<h4 className="fw-bold">Flat Feet</h4>
+						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -22  }}><Image src="/star.png" width="16px" height="16px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
 								<Link href="/flat-feet-exercises">
 									<a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a>
 								</Link>
@@ -137,11 +137,11 @@ export default function Home() {
 
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
-						<h5 className="fw-bold">Flat Feet</h5>
+						<h4 className="fw-bold">Flat Feet</h4>
 						<ul className="list-unstyled d-grid gap-4">
 							<li><Link href="/flat-feet-exercises"><a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a></Link></li>
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -22  }}><Image src="/star.png" width="16px" height="16px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
 								<Link href="/flat-feet-exercises">
 									<a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a>
 								</Link>
@@ -157,8 +157,8 @@ export default function Home() {
 
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
-						<h5 className="fw-bold">Flat Feet</h5>
-						<ul className="list-unstyled d-grid gap-3">
+						<h4 className="fw-bold">Flat Feet</h4>
+						<ul className="list-unstyled d-grid gap-4">
 							<li><Link href="/flat-feet-exercises"><a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a></Link></li>
 							<li><Link href="/flat-feet-exercises"><a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a></Link></li>
 						</ul>
@@ -166,10 +166,10 @@ export default function Home() {
 
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
-						<h5 className="fw-bold">Flat Feet</h5>
-						<ul className="list-unstyled d-grid gap-3">
+						<h4 className="fw-bold">Flat Feet</h4>
+						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -22  }}><Image src="/star.png" width="16px" height="16px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
 								<Link href="/flat-feet-exercises">
 									<a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a>
 								</Link>
@@ -182,10 +182,10 @@ export default function Home() {
 
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
-						<h5 className="fw-bold">Flat Feet</h5>
-						<ul className="list-unstyled d-grid gap-3">
+						<h4 className="fw-bold">Flat Feet</h4>
+						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -22  }}><Image src="/star.png" width="16px" height="16px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
 								<Link href="/flat-feet-exercises">
 									<a className="text-decoration-none">Flat Feet Exercises – The Ultimate Exercises To Fix Flat Feet!</a>
 								</Link>
