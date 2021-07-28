@@ -50,8 +50,8 @@ export default function Home() {
 					/>
 
 					<ArticleCard 
-						category="GADGETS"
-						catlink="gadgets"
+						category="RUNNING EQUIPMENT"
+						catlink="running-equipment"
 						title="Training Versus Running Shoes: Solve the Dilemma Once & For All"
 						slug="training-versus-running-shoes"
 						auimg="dominic.jpg"
@@ -72,8 +72,8 @@ export default function Home() {
 					/>
 
 					<ArticleCard 
-						category="GADGETS"
-						catlink="gadgets"
+						category="RUNNING EQUIPMENT"
+						catlink="running-equipment"
 						title="Best Running Shoes for Achilles Tendonitis: Top 9 Tendon-Friendly Picks"
 						slug="best-running-shoes-for-achilles-tendonitis"
 						auimg="dominic.jpg"
@@ -104,7 +104,7 @@ export default function Home() {
 				<div className="row justify-content-center justify-content-lg-between">
 					<div className="col-10 col-md-4 col-lg-3">
 						<div style={{ minHeight: '50px', clear: 'both'  }}></div>
-						<h5 className="fw-bold">Flat Feet</h5>
+						<h4 className="fw-bold">Flat Feet</h4>
 						<ul className="list-unstyled d-grid gap-3">
 							<li className="position-relative">
 								<span style={{ position: 'absolute', top: 2, left: -22  }}><Image src="/star.png" width="16px" height="16px" alt="star" /></span>
