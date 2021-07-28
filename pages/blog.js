@@ -29,7 +29,7 @@ export default function Blog({ articles }) {
 							<div className="display-3 fw-bold">The Blog</div>
 						</h1>
 						<div style={{ height: '30px', clear: 'both' }}></div>
-						<p className="lead text-light">
+						<p className="fs-5 text-light">
 						Welcome to the blog. Here you'll find lots of pages of running advice on training plans, effective workouts, avoiding - and recovering - from common injuries, honest running equipment reviews, and much more. You can browse the blog based on the category below. Enjoy.
 						</p>
 					</div>
@@ -51,22 +51,22 @@ export default function Blog({ articles }) {
 								<Link href="/training"><a className="text-decoration-none">Training</a></Link>
 							</li>
 
-							<li className="list-inline-item fw-bold">·</li>
+							<li className="list-inline-item fw-bold px-2">·</li>
 							
 							<li className="list-inline-item">
 								<Link href="/injuries"><a className="text-decoration-none">Injuries</a></Link>
 							</li>
 
-							<li className="list-inline-item fw-bold">·</li>
+							<li className="list-inline-item fw-bold px-2">·</li>
 							
 							<li className="list-inline-item">
 								<Link href="/running-equipment"><a className="text-decoration-none">Running Equipment</a></Link>
 							</li>
 
-							<li className="list-inline-item fw-bold">·</li>
+							<li className="list-inline-item fw-bold px-2">·</li>
 							
 							<li className="list-inline-item">
-								<Link href="/frequently-asked-questions"><a className="text-decoration-none">trequently Asked Questions</a></Link>
+								<Link href="/frequently-asked-questions"><a className="text-decoration-none">Frequently Asked Questions</a></Link>
 							</li>
 						</ul>
 					</div> { /* col: end */ }
@@ -82,18 +82,20 @@ export default function Blog({ articles }) {
 				<h2 className="fw-bold">Most Popular Articles</h2>
 				<div style={{ height: '25px', clear: 'both' }}></div>
 
-				<div className="row justify-content-center text-start">
+				<div className="row justify-content-center text-start fs-5">
 					<div className="col-12 col-md-4">
-						<h5>TRAINING</h5>
-						<ul className="list-unstyled">
+						<h4>TRAINING</h4>
+						<ul className="list-unstyled d-grid gap-3">
+							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
 							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
 						</ul>
 						<div style={{ height: '25px', clear: 'both' }}></div>
 					</div> { /* col: end */ }
 
 					<div className="col-12 col-md-4">
-						<h5>INJURIES</h5>
-						<ul className="list-unstyled">
+						<h4>INJURIES</h4>
+						<ul className="list-unstyled d-grid gap-3">
+							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
 							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
 						</ul>
 						<div style={{ height: '25px', clear: 'both' }}></div>
@@ -102,16 +104,18 @@ export default function Blog({ articles }) {
 					<div className="w-100"></div>
 		
 					<div className="col-12 col-md-4">
-						<h5>RUNNING EQUIPMENT</h5>
-						<ul className="list-unstyled">
+						<h4>RUNNING EQUIPMENT</h4>
+						<ul className="list-unstyled d-grid gap-3">
+							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
 							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
 						</ul>
 						<div style={{ height: '25px', clear: 'both' }}></div>
 					</div> { /* col: end */ }
 
 					<div className="col-12 col-md-4">
-						<h5>FREQUENTYLY ASKED QUESTIONS</h5>
-						<ul className="list-unstyled">
+						<h4>FREQUENTYLY ASKED QUESTIONS</h4>
+						<ul className="list-unstyled d-grid gap-3">
+							<li><Link href="/does-running-make-your-legs-bigger"><a className="text-decoration-none">Does Running Make Your Legs Bigger? It depends on you!</a></Link></li>
 							<li><Link href="/does-running-make-your-legs-bigger"><a className="text-decoration-none">Does Running Make Your Legs Bigger? It depends on you!</a></Link></li>
 						</ul>
 						<div style={{ height: '30px', clear: 'both' }}></div>
@@ -124,16 +128,17 @@ export default function Blog({ articles }) {
 
 		{ /* All Articles */ }
 		<div className="all-articles">
+			<div style={{ height: '15px', clear: 'both' }}></div>
 			<div className="container text-start justify-content-center">
 				<h2 className="fw-bold text-center">See All Articles</h2>
 				<div style={{ height: '15px', clear: 'both' }}></div>
-				<div className="row justify-content-center">
-					<ul className="list-unstyled col-12 col-md-8 d-grid gap-2">
+				<div className="row justify-content-center fs-5">
+					<ul className="list-unstyled col-12 col-md-8 d-grid gap-3">
 						{articles.map(a => (<>
 							<li key={ a.id }>
 								<Link href={ "/" + a.slug }><a className="text-decoration-none d-block">{ a.title }</a></Link>
 							</li>	
-							<div style={(a.id % 4 === 0 && a.id !== 0)? {height: '30px', clear: 'both'}: {}}></div>
+							<div style={(a.id % 4 === 0 && a.id !== 0)? {height: '40px', clear: 'both'}: {}}></div>
 						</>))}
 					</ul>
 				</div>
