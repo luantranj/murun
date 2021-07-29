@@ -86,19 +86,22 @@ export default function Blog({ articles }) {
 
 				<div className="row justify-content-center text-start fs-5">
 					<div className="col-12 col-md-4">
-						<h4>TRAINING</h4>
+						<h4 className="fw-bold">TRAINING</h4> 
 						<ul className="list-unstyled d-grid gap-3">
-							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
-							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
+							<li><Link href="/running-with-ankle-weights"><a className="text-decoration-none">10 Awesome Benefits of Running with Ankle Weights</a></Link></li>
+							<li><Link href="/how-to-start-running-for-beginners"><a className="text-decoration-none">How To Start Running - A Complete Guide For Beginners</a></Link></li>
 						</ul>
 						<div style={{ height: '25px', clear: 'both' }}></div>
 					</div> { /* col: end */ }
 
 					<div className="col-12 col-md-4">
-						<h4>INJURIES</h4>
+						<h4 className="fw-bold">INJURIES</h4>
 						<ul className="list-unstyled d-grid gap-3">
-							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
-							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
+							<li><Link href="/peroneal-tendonitis-running"><a className="text-decoration-none">Peroneal Tendonitis Running - The Best Ways To Manage It</a></Link></li>
+							<li><Link href="/achilles-tendon-massage"><a className="text-decoration-none">Achilles Pain Relief: Try This Simple Achilles Tendon Massage</a></Link></li>
+							<li><Link href="/plantar-fasciitis-trigger-points"><a className="text-decoration-none">I Fixed My Plantar Fasciitis with a Trigger Point Therapy - Here's How You Can Do It Too</a></Link></li>
+							<li><Link href="/how-to-wrap-foot-for-plantar-fasciitis-with-ace-bandage"><a className="text-decoration-none">How to Wrap Foot for Plantar Fasciitis with Ace Bandage: DIY Instructions</a></Link></li>
+							<li><Link href="/how-to-heal-a-bruised-heel"><a className="text-decoration-none">How to Heal a Bruised Heel - What You Need to Know and How to Do It!</a></Link></li>
 						</ul>
 						<div style={{ height: '25px', clear: 'both' }}></div>
 					</div> { /* col: end */ }
@@ -106,19 +109,22 @@ export default function Blog({ articles }) {
 					<div className="w-100"></div>
 		
 					<div className="col-12 col-md-4">
-						<h4>RUNNING EQUIPMENT</h4>
+						<h4 className="fw-bold">RUNNING EQUIPMENT</h4>
 						<ul className="list-unstyled d-grid gap-3">
-							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
-							<li><Link href="/"><a className="text-decoration-none">Running 5 Miles a Day – My Journey (Plus a Handy Guide For You To Replicate)</a></Link></li>
+							<li><Link href="/best-running-shoes-for-achilles-tendonitis"><a className="text-decoration-none">Best Running Shoes for Achilles Tendonitis: Top 9 Tendon-Friendly Picks</a></Link></li>
+							<li><Link href="/essential-oils-for-plantar-fasciitis"><a className="text-decoration-none">How to Use Essential Oils for Your Plantar Fasciitis? Instructions and Buying Guide</a></Link></li>
+							<li><Link href="/best-running-shoes-for-peroneal-tendonitis"><a className="text-decoration-none">Best Running Shoes for Peroneal Tendonitis - Top 5 Sneakers for Injury Prevention</a></Link></li>
 						</ul>
 						<div style={{ height: '25px', clear: 'both' }}></div>
 					</div> { /* col: end */ }
 
 					<div className="col-12 col-md-4">
-						<h4>FREQUENTYLY ASKED QUESTIONS</h4>
+						<h4 className="fw-bold">FREQUENTYLY ASKED QUESTIONS</h4>
 						<ul className="list-unstyled d-grid gap-3">
+							<li><Link href="/ears-hurt-when-running"><a className="text-decoration-none">Why Do Your Ears Hurt When You Run and How to Stop It</a></Link></li>
+							<li><Link href="/does-running-make-you-taller"><a className="text-decoration-none">Does Running Make You Taller or Is It Just a Myth? The Honest Truth!</a></Link></li>
 							<li><Link href="/does-running-make-your-legs-bigger"><a className="text-decoration-none">Does Running Make Your Legs Bigger? It depends on you!</a></Link></li>
-							<li><Link href="/does-running-make-your-legs-bigger"><a className="text-decoration-none">Does Running Make Your Legs Bigger? It depends on you!</a></Link></li>
+							<li><Link href="/how-long-does-plantar-fasciitis-last"><a className="text-decoration-none">How Long Does Plantar Fasciitis Last - Educated, Thorough Answer</a></Link></li>
 						</ul>
 						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div> { /* col: end */ }
@@ -136,14 +142,14 @@ export default function Blog({ articles }) {
 				<div style={{ height: '15px', clear: 'both' }}></div>
 				<div className="row justify-content-center fs-5">
 					<ul className="list-unstyled col-12 col-md-8">
-						{articles.map(a => (<>
-							<li key={ a.id }>
+						{articles.map(a => (<div key={ a.id } className="d-inline">
+							<li>
 								<Link href={ "/" + a.slug }><a className="text-decoration-none d-block">{ a.title }</a></Link>
 								<div style={{ height: '15px', clear: 'both' }}></div>
 								<div className={i = i + 1}></div>	
 								<div style={(i % 3 === 0 && i !== 0)? {height: '40px', clear: 'both'}: {}}></div>
 							</li>	
-						</>))}
+						</div>))}
 					</ul>
 				</div>
 			</div> { /* container: end */ }
