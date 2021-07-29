@@ -14,6 +14,8 @@ export async function getStaticProps() {
 
 
 export default function Blog({ articles }) {
+	let i = 0;
+
 	return (<>
 		<Head>
 			<title>Blog - Empower Your Run</title>
@@ -133,12 +135,14 @@ export default function Blog({ articles }) {
 				<h2 className="fw-bold text-center">See All Articles</h2>
 				<div style={{ height: '15px', clear: 'both' }}></div>
 				<div className="row justify-content-center fs-5">
-					<ul className="list-unstyled col-12 col-md-8 d-grid gap-3">
+					<ul className="list-unstyled col-12 col-md-8">
 						{articles.map(a => (<>
 							<li key={ a.id }>
 								<Link href={ "/" + a.slug }><a className="text-decoration-none d-block">{ a.title }</a></Link>
+								<div style={{ height: '15px', clear: 'both' }}></div>
+								<div className={i = i + 1}></div>	
+								<div style={(i % 3 === 0 && i !== 0)? {height: '40px', clear: 'both'}: {}}></div>
 							</li>	
-							<div style={(a.id % 4 === 0 && a.id !== 0)? {height: '40px', clear: 'both'}: {}}></div>
 						</>))}
 					</ul>
 				</div>
