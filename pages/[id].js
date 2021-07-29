@@ -56,7 +56,7 @@ export default function Topic({ topic, articles }) {
 	];
 
 	const topics = ['training', 'injuries', 'running-equipment', 'frequently-asked-questions'];
-
+	let i = 0;
 
 	return (<>
 		<Head>
@@ -119,7 +119,7 @@ export default function Topic({ topic, articles }) {
 								{(topics[a.topic] === topic.slug && a.most_popular === 1)? 
 									<li>
 										<Link href={ "/" + a.slug }><a className="text-decoration-none">{ a.title }</a></Link>
-										<div style={{ height: '15px', clear: 'both' }}></div>
+										<div style={{ height: '25px', clear: 'both' }}></div>
 									</li>
 								:"" 
 								}
@@ -144,6 +144,8 @@ export default function Topic({ topic, articles }) {
 								<li>
 									<Link href={ "/" + a.slug }><a className="text-decoration-none">{ a.title }</a></Link>
 									<div style={{ height: '15px', clear: 'both' }}></div>
+									<div className={i = i + 1}></div>	
+									<div style={(i % 3 === 0 && i !== 0)? {height: '40px', clear: 'both'}: {}}></div>
 								</li>
 							:"" 
 							}
