@@ -45,7 +45,7 @@ export default function Layout({ children }) {
 							<li><Link href="/training"><a className="link-light text-decoration-none">Training</a></Link></li>
 							<li><Link href="/injuries"><a className="link-light text-decoration-none">Injuries</a></Link></li>
 							<li><Link href="/running-equipment"><a className="link-light text-decoration-none">Equipment</a></Link></li>
-							<li><Link href="/frequently-asked-questions"><a className="link-light text-decoration-none">F.A.Qs</a></Link></li>
+							<li><Link href="/frequently-asked-questions"><a className="link-light text-decoration-none">FAQs</a></Link></li>
 						</ul>
 						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
