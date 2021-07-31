@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
 		<div className="row justify-content-center px-2">
 		<div className="col-12 col-md-9">
 			<p>If you require any more information or have any questions about the privacy policy, 
-			please feel free to <Link href="https://9awlmhhepcj.typeform.com/c/Y0iCQpBF"><a className="text-decoration-none" target="_blank">contact me here</a></Link>.
+			please feel free to <Link href="/contact"><a className="text-decoration-none">contact me here</a></Link>.
 			</p>
 		
 			<p>At <Link href="/"><a className="text-decoration-none">EmpowerYourRun</a></Link>, the privacy of the visitors is of extreme importance to me.</p> 
