@@ -36,7 +36,7 @@ export default function Layout({ children }) {
 						<h4>Connect</h4>
 						<div className="mt-3">
 						<ul className="list-inline">
-							<li className="list-inline-item"><Link href="https://www.twitter.com/IAmDominicT"><a className="text-decoration-none" target="_blank"><FaTwitter size="1.4em" color="#fff" /></a></Link></li>
+							<li className="list-inline-item"><Link href={ "https://www.twitter.com/" + process.env.TWITTER_ACCOUNT }><a className="text-decoration-none" target="_blank"><FaTwitter size="1.4em" color="#fff" /></a></Link></li>
 							<li className="list-inline-item"><Link href="https://9awlmhhepcj.typeform.com/c/Y0iCQpBF"><a className="text-decoration-none mx-3" target="_blank"><FaRocketchat size="1.4em" color="#fff" /></a></Link></li>
 							<li className="list-inline-item"><Link href="https://www.github.com/iamdominict"><a className="text-decoration-none" target="_blank"><FaGithub size="1.4em" color="#fff" /></a></Link></li>
 
