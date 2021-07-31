@@ -5,7 +5,21 @@ import Link from 'next/link';
 import ArticleCard from '../components/ArticleCard';
 import BestArticles from '../components/BestArticles';
 
-export default function Home() {
+
+export async function getStaticProps() {
+	const res = await fetch(process.env.ARTICLES_ENDPOINT);
+	const data = await res.json();
+
+	return {
+		props: {articles: data},
+		revalidate: 60
+	}
+}
+
+
+export default function Home({ articles }) {
+	const topicSlugs = ['training', 'injuries', 'running-equipment', 'frequently-asked-questions'];
+	const topics = ['TRAINING', 'INJURIES', 'RUNNING EQUIPMENT', 'FAQs'];
 	return(<>
 		<Head>
 			<title>Home - Empower Your Run</title>
@@ -37,56 +51,28 @@ export default function Home() {
 
 		{ /* Recent Article */ }
 
-		<div className="recent-articles py-5">
-			<div className="container-fluid text-center">
-				<div className="row justify-content-center">
-					<ArticleCard 
-						category="TRAINING"
-						catlink="training"
-						title="Why Am I Getting Worse At Running? Discover The Root Of Your Problem"
-						slug="why-am-i-getting-worse-at-running"
-						auimg="dominic.jpg"
-						author="Dominic T."
-						aulink="dominic"
-						minread="08"
-					/>
-
-					<ArticleCard 
-						category="RUNNING EQUIPMENT"
-						catlink="running-equipment"
-						title="Training Versus Running Shoes: Solve the Dilemma Once & For All"
-						slug="training-versus-running-shoes"
-						auimg="dominic.jpg"
-						author="Dominic T."
-						aulink="dominic"
-						minread="09"
-					/>
-
-					<ArticleCard 
-						category="INJURIES"
-						catlink="injuries"
-						title="Pain on Top of the Foot after Running – How to Identify and Treat Foot Extensor Tendonitis"
-						slug="pain-on-top-of-foot-after-running"
-						auimg="dominic.jpg"
-						author="Dominic T."
-						aulink="dominic"
-						minread="09"
-					/>
-
-					<ArticleCard 
-						category="RUNNING EQUIPMENT"
-						catlink="running-equipment"
-						title="Best Running Shoes for Achilles Tendonitis: Top 9 Tendon-Friendly Picks"
-						slug="best-running-shoes-for-achilles-tendonitis"
-						auimg="dominic.jpg"
-						author="Dominic T."
-						aulink="dominic"
-						minread="18"
-					/>
-				</div> { /* Row of Contents: end */ }
+		<div className="recent-articles">
+			<div className="container-fluid text-center justify-content-center">
+					{articles.map(a => {
+						if (a.id <= 3) {
+							return (
+							<div key={ a.id } className="row justify-content-center border-bottom">
+								<ArticleCard 
+									category={ topics[a.topic] }
+									catlink={ topicSlugs[a.topic] }
+									title={ a.title }
+									slug={ a.slug }
+									auimg={ a.author_avatar }
+									author={ a.author_name }
+									aulink={ a.author_link }
+									minread={ a.min_read}
+								/>
+							</div>
+						)}
+					})}
 			</div> { /* container: end */ }
 
-			<div className="container-fluid text-center">
+			<div className="container-fluid text-center my-5 pb-5">
 				<div className="d-grid col-6 mx-auto">
 						<Link href="/blog"><a className="btn btn-outline-primary btn-lg fw-bold border-3">SEE ALL ARTICLES</a></Link>
 				</div> { /* button: end */ }
