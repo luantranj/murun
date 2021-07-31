@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
 		<div className="row justify-content-center px-2">
 		<div className="col-12 col-md-9">
 			<p>If you require any more information or have any questions about the privacy policy, 
-			please feel free to contact me through <Link href="https://www.twitter.com/0bdominic"><a className="text-decoration-none">Twitter</a></Link>.
+			please feel free to <Link href="https://9awlmhhepcj.typeform.com/c/Y0iCQpBF"><a className="text-decoration-none" target="_blank">contact me here</a></Link>.
 			</p>
 		
 			<p>At <Link href="/"><a className="text-decoration-none">EmpowerYourRun</a></Link>, the privacy of the visitors is of extreme importance to me.</p> 
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
 				<li>Google’s use of the DART cookie enables it to serve ads to users based on their visit to  
 					<Link href="/"><a className="text-decoration-none"> EmpowerYourRun</a></Link> and other sites on the Internet;</li>
 				<li>Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy at the following URL:    
-				<Link href="http://www.google.com/privacy_ads.html"><a className="text-decoration-none"> http://www.google.com/privacy_ads.html</a></Link>.</li>
+				<Link href="http://www.google.com/privacy_ads.html"><a className="text-decoration-none" target="_blank"> http://www.google.com/privacy_ads.html</a></Link>.</li>
 			</ul>
 			<p>Some of my advertising partners may use cookies and web beacons on my site. My advertising partners include:</p>
 
