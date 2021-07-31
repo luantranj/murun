@@ -30,7 +30,8 @@ export async function getStaticProps(context) {
 	const articlesData = await articlesRes.json();
 
 	return {
-		props: { topic: data, articles: articlesData }
+		props: { topic: data, articles: articlesData },
+		revalidate: 60
 	}
 }
 

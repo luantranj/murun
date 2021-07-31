@@ -8,7 +8,8 @@ export async function getStaticProps() {
 	const data = await res.json();
 
 	return {
-		props: {articles: data}
+		props: {articles: data},
+		revalidate: 60
 	}
 }
 
