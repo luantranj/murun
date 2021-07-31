@@ -14,7 +14,7 @@ export default function ArticleCard(props) {
 
 			<div className="d-flex align-items-center justify-content-center">
 				<span><Image src={ "/" + auimg } width="35" height="35" className="rounded-circle" /></span>
-				<span className="px-5" className="ms-2" ><Link href={ "/" + aulink }><a className="text-decoration-none link-dark">{ author }</a></Link></span>
+				<span className="px-5 ms-2" ><Link href={ "/" + aulink }><a className="text-decoration-none link-dark">{ author }</a></Link></span>
 				<span className="ms-4" >♦ { minread } min read</span>
 			</div> { /* article infor: end */ }
 		</div> { /* article: end */ }
