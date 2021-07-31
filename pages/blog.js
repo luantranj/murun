@@ -32,7 +32,7 @@ export default function Blog({ articles }) {
 						</h1>
 						<div style={{ height: '30px', clear: 'both' }}></div>
 						<p className="fs-5 text-light">
-						Welcome to the blog. Here you'll find lots of pages of running advice on training plans, effective workouts, avoiding - and recovering - from common injuries, honest running equipment reviews, and much more. You can browse the blog based on the category below. Enjoy.
+						Welcome to the blog. Here you&apos;ll find lots of pages of running advice on training plans, effective workouts, avoiding - and recovering - from common injuries, honest running equipment reviews, and much more. You can browse the blog based on the category below. Enjoy.
 						</p>
 					</div>
 				</div>
@@ -99,7 +99,7 @@ export default function Blog({ articles }) {
 						<ul className="list-unstyled d-grid gap-3">
 							<li><Link href="/peroneal-tendonitis-running"><a className="text-decoration-none">Peroneal Tendonitis Running - The Best Ways To Manage It</a></Link></li>
 							<li><Link href="/achilles-tendon-massage"><a className="text-decoration-none">Achilles Pain Relief: Try This Simple Achilles Tendon Massage</a></Link></li>
-							<li><Link href="/plantar-fasciitis-trigger-points"><a className="text-decoration-none">I Fixed My Plantar Fasciitis with a Trigger Point Therapy - Here's How You Can Do It Too</a></Link></li>
+							<li><Link href="/plantar-fasciitis-trigger-points"><a className="text-decoration-none">I Fixed My Plantar Fasciitis with a Trigger Point Therapy - Here&apos;s How You Can Do It Too</a></Link></li>
 							<li><Link href="/how-to-wrap-foot-for-plantar-fasciitis-with-ace-bandage"><a className="text-decoration-none">How to Wrap Foot for Plantar Fasciitis with Ace Bandage: DIY Instructions</a></Link></li>
 							<li><Link href="/how-to-heal-a-bruised-heel"><a className="text-decoration-none">How to Heal a Bruised Heel - What You Need to Know and How to Do It!</a></Link></li>
 						</ul>

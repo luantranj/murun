@@ -57,16 +57,16 @@ export default function About() {
 
 			<p>Moreover, I’m all about doing extensive research and speaking from personal experience – you can rely on every piece of information you find on here, including:</p>
 			<ul className="d-grid gap-2">
-				<li>Importance of "warm-ups" and "cooldowns"</li>
+				<li>Importance of warm-ups and cooldowns</li>
 				<li>Improving speed and distance</li>
 				<li>Marathon training</li>
 				<li>Finding the right running equipment</li>
 				<li>Debunking common myths and misconceptions about running</li>
 			</ul>
 
-			<p>Empower Your Run keeps growing day in and day out, and while I hope to make it a reliable source of knowledge and support for runners worldwide, it's still a one-person project.</p>
+			<p>Empower Your Run keeps growing day in and day out, and while I hope to make it a reliable source of knowledge and support for runners worldwide, it&apos;s still a one-person project.</p>
 
-			<p>If you don't find the answers you were looking for right away, don't hesitate to send me suggestions and ideas on what you'd like to read next. We're here to learn from each other, after all.</p>
+			<p>If you don&apos;t find the answers you were looking for right away, don&apos;t hesitate to send me suggestions and ideas on what you&apos;d like to read next. We&apos;re here to learn from each other, after all.</p>
 
 			<p>Lastly, it wouldn’t be what it is today if it weren’t for you and your support, so before you go about your day, know that I appreciate every single one of you.</p>
 
@@ -80,7 +80,7 @@ export default function About() {
 			<p>Whether you’re just now discovering the joys of running and feel like you’d benefit from having some guidance on your journey, 
 			or you need some extra help with addressing common running problems and mistakes, I’m here for you!</p>
 
-			<p>You can reach me through <Link href="https://www.twitter.com/IAmDominicT"><a className="text-decoration-none">Twitter</a></Link>  whenever you feel like it, and I'll be sure to follow-up soon!</p>
+			<p>You can reach me through <Link href="https://www.twitter.com/IAmDominicT"><a className="text-decoration-none">Twitter</a></Link>  whenever you feel like it, and I&apos;ll be sure to follow-up soon!</p>
 		</div> { /* col: end */ }
 	</div> { /* row: end */ }	
 		</div> { /* Main content: end */ }

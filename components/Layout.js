@@ -9,7 +9,7 @@ export default function Layout({ children }) {
 	return (<>
 		<Navbar bg="primary" expand="md" className="container-fluid align-middle px-md-5" collapseOnSelect>
 			<Navbar.Brand className="text-white fw-bold">
-				<h2 className="fw-bold"><a href="/" className="text-decoration-none text-light">EMPOWER YOUR RUN</a></h2>
+				<h2 className="fw-bold"><Link href="/"><a className="text-decoration-none text-light">EMPOWER YOUR RUN</a></Link></h2>
 			</Navbar.Brand>
 
 			<Navbar.Toggle  className="me-1" variant="success"/>

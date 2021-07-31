@@ -36,7 +36,7 @@ export default function BestArticles() {
 							<li className="position-relative">
 								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/plantar-fasciitis-trigger-points">
-									<a className="text-decoration-none">I Fixed My Plantar Fasciitis with a Trigger Point Therapy - Here's How You Can Do It Too</a>
+									<a className="text-decoration-none">I Fixed My Plantar Fasciitis with a Trigger Point Therapy - Here&apos;s How You Can Do It Too</a>
 								</Link>
 							</li>
 							<li className="position-relative">
@@ -73,7 +73,7 @@ export default function BestArticles() {
 						<h4 className="fw-bold">Ball of Foot and Bunion</h4>
 						<ul className="list-unstyled d-grid gap-4">
 							<li><Link href="/dropped-metatarsal"><a className="text-decoration-none">What You Should Know About Dropped Metatarsal and How to Fix It</a></Link></li>
-							<li><Link href="/mortons-neuroma-running"><a className="text-decoration-none">Morton's Neuroma in Running - What You Need To Know!</a></Link></li>
+							<li><Link href="/mortons-neuroma-running"><a className="text-decoration-none">Morton&apos;s Neuroma in Running - What You Need To Know!</a></Link></li>
 							<li><Link href="/how-to-prevent-bunions-from-getting-worse"><a className="text-decoration-none">6 Tips on How to Prevent Bunions from Getting Worse</a></Link></li>
 						</ul>
 					</div>
@@ -99,7 +99,7 @@ export default function BestArticles() {
 							<li className="position-relative">
 								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/hot-spots-on-foot">
-									<a className="text-decoration-none">You Have Hot Spots on Foot? Here's What You Should Know!</a>
+									<a className="text-decoration-none">You Have Hot Spots on Foot? Here&apos;s What You Should Know!</a>
 								</Link>
 							</li>
 							<li><Link href="/difference-between-shin-splints-and-stress-fracture"><a className="text-decoration-none">How To Make A Difference Between Shin Splints And Stress Fractures</a></Link></li>
