@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 
 export const getStaticPaths = async() => {
-	const res = await fetch('https://api.npoint.io/d0c87430d8deae4e27a2/topic-pages');
+	const res = await fetch(process.env.TOPIC_PAGES_ENDPOINT);
 	const data = await res.json();
 
 	const paths = data.map(t => {

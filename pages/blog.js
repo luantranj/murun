@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 
 export async function getStaticProps() {
-	const res = await fetch('https://api.npoint.io/944c126d90b2c2eb7edf/articles');
+	const res = await fetch(process.env.ARTICLES_ENDPOINT);
 	const data = await res.json();
 
 	return {
