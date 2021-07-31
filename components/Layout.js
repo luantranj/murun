@@ -2,6 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Navbar, Nav } from 'react-bootstrap';
 
+import { FaTwitter, FaRocketchat, FaGithub } from 'react-icons/fa';
+
+
 export default function Layout({ children }) {
 	return (<>
 		<Navbar bg="primary" expand="md" className="container-fluid align-middle px-md-5" collapseOnSelect>
@@ -32,9 +35,13 @@ export default function Layout({ children }) {
 					<div className="col-md-3">
 						<h4>Connect</h4>
 						<div className="mt-3">
-							<Link href="https://twitter.com/0bdominic"><a className="mx-2"><Image src="/twitter.png" width="32" height="32" alt="Twitter" /></a></Link>
-							<Link href="https://instagram.com/0bdominic"><a className="mx-2"><Image src="/instagram.png" width="32" height="32" alt="Instagram" /></a></Link>
-							<Link href="/404"><a className="mx-2"><Image src="/youtube.png" width="32" height="32" alt="Youtube" /></a></Link>
+						<ul className="list-inline">
+							<li className="list-inline-item"><Link href="https://www.twitter.com/IAmDominicT"><a className="text-decoration-none" target="_blank"><FaTwitter size="1.4em" color="#fff" /></a></Link></li>
+							<li className="list-inline-item"><Link href="https://9awlmhhepcj.typeform.com/c/Y0iCQpBF"><a className="text-decoration-none mx-3" target="_blank"><FaRocketchat size="1.4em" color="#fff" /></a></Link></li>
+							<li className="list-inline-item"><Link href="https://www.github.com/iamdominict"><a className="text-decoration-none" target="_blank"><FaGithub size="1.4em" color="#fff" /></a></Link></li>
+
+
+						</ul>
 						</div>
 						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { GrStar } from "react-icons/gr";
 
 export default function BestArticles() {
 	return(<>
@@ -18,7 +19,7 @@ export default function BestArticles() {
 						<h4 className="fw-bold">Running for Beginners</h4>
 						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/how-to-start-running-for-beginners">
 									<a className="text-decoration-none">How To Start Running - A Complete Guide For Beginners</a>
 								</Link>
@@ -33,13 +34,13 @@ export default function BestArticles() {
 						<h4 className="fw-bold">Arche of Foot</h4>
 						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/plantar-fasciitis-trigger-points">
 									<a className="text-decoration-none">I Fixed My Plantar Fasciitis with a Trigger Point Therapy - Here's How You Can Do It Too</a>
 								</Link>
 							</li>
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/how-to-wrap-foot-for-plantar-fasciitis-with-ace-bandage">
 									<a className="text-decoration-none">How to Wrap Foot for Plantar Fasciitis with Ace Bandage: DIY Instructions</a>
 								</Link>
@@ -55,7 +56,7 @@ export default function BestArticles() {
 						<ul className="list-unstyled d-grid gap-4">
 							<li><Link href="/achilles-tendon-massage"><a className="text-decoration-none">Achilles Pain Relief: Try This Simple Achilles Tendon Massage</a></Link></li>
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/peroneal-tendonitis-running">
 									<a className="text-decoration-none">Peroneal Tendonitis Running - The Best Ways To Manage It</a>
 								</Link>
@@ -82,7 +83,7 @@ export default function BestArticles() {
 						<h4 className="fw-bold">Toes</h4>
 						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/sprained-toe">
 									<a className="text-decoration-none">Everything You Need to Know About a Sprained Toe and How to Heal It</a>
 								</Link>
@@ -96,7 +97,7 @@ export default function BestArticles() {
 						<h4 className="fw-bold">Other Problems</h4>
 						<ul className="list-unstyled d-grid gap-4">
 							<li className="position-relative">
-								<span style={{ position: 'absolute', top: 2, left: -24  }}><Image src="/star.png" width="19px" height="19px" alt="star" /></span>
+								<span style={{ position: 'absolute', top: -4, left: -28  }}><GrStar size="1.2em" color="#FFCA2C" /></span>
 								<Link href="/hot-spots-on-foot">
 									<a className="text-decoration-none">You Have Hot Spots on Foot? Here's What You Should Know!</a>
 								</Link>
