@@ -79,7 +79,7 @@ export default function About() {
 
 			<p>Whether you’re just now discovering the joys of running and feel like you’d benefit from having some guidance on your journey, 
 			or you need some extra help with addressing common running problems and mistakes, I’m here for you!</p>
-			<p>You can reach me through <Link href={ "https://www.twitter.com/" + process.env.TWITTER_ACCOUNT }><a className="text-decoration-none" target="_blank">Twitter</a></Link>  whenever you feel like it, and I&apos;ll be sure to follow-up soon!</p>
+			<p>You can reach me through <Link href="https://www.twitter.com/IAmDominicT"><a className="text-decoration-none" target="_blank">Twitter</a></Link>  whenever you feel like it, and I&apos;ll be sure to follow-up soon!</p>
 		</div> { /* col: end */ }
 	</div> { /* row: end */ }	
 		</div> { /* Main content: end */ }

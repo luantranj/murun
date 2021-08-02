@@ -19,7 +19,7 @@ export default function About() {
 						<div style={{ height: '30px', clear: 'both' }}></div>
 						<p className="fs-5 text-light">
 						You can get in touch with me using the chatbox below. 
-						Or you can find me on <Link href={ "https://www.twitter.com/" + process.env.TWITTER_ACCOUNT }><a className="text-decoration-none text-light fw-bold" target="_blank">Twitter</a></Link>.
+						Or you can find me on <Link href="https://www.twitter.com/IAmDominicT"><a className="text-decoration-none text-light fw-bold" target="_blank">Twitter</a></Link>.
 						</p>
 					</div>
 				</div>
