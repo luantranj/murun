@@ -95,7 +95,7 @@ export default function Topic({ topic, articles }) {
 						<ul className="list-inline fs-5">
 							{topicLinks.map((tl, index) => (<div key={index } className="d-inline">
 								<li className="list-inline-item">
-								{(topic.slug === tl.slug)? <span className="fw-bold">{ tl.topic } </span>:<Link href={ "/" + tl.slug }><a className="text-decoration-none">{ tl.topic }</a></Link>}
+								{(topic.slug === tl.slug)? <span className="fw-bold">{ tl.topic } </span>:<Link href={ "/category/" + tl.slug }><a className="text-decoration-none">{ tl.topic }</a></Link>}
 								</li>
 								{index !== (topicLinks.length - 1)?<li className="list-inline-item fw-bold px-2 pe-3">·</li>:""}
 							</div>))}

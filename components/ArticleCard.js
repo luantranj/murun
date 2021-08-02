@@ -6,7 +6,7 @@ export default function ArticleCard(props) {
 	const { category, catlink, title, slug, auimg, author, aulink, minread } = props;
 	return (<>
 		<div className="col-12 col-lg-6 article my-5">
-			<h6><Link href={ "/" + catlink }><a className="text-decoration-none link-secondary">{ category }</a></Link></h6>
+			<h6><Link href={ "/category/" + catlink }><a className="text-decoration-none link-secondary">{ category }</a></Link></h6>
 			<h2 className="fw-bold">
 				<Link href={ "/" + slug}><a className="text-decoration-none">{ title }</a></Link>
 			</h2>
