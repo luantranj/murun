@@ -1,9 +1,14 @@
 import Link from 'next/link';
+import Head from 'next/head';
+
 import BestArticles from '../components/BestArticles';
 
 export default function NotFound() {
 
-	return (
+	return (<>
+		<Head>
+			<title>Page Not Found - Empower Your Run</title>
+		</Head>
 		<div className="not-found container-md fs-5 mt-5 pt-4">
 			<div className="text-center">
 				<h1 className="text-primary display-2 fw-bold">404</h1>
@@ -14,5 +19,5 @@ export default function NotFound() {
 
 			<BestArticles />
 		</div>
-)
+	</>)
 }
