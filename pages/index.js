@@ -53,8 +53,8 @@ export default function Home({ articles }) {
 
 		<div className="recent-articles">
 			<div className="container-fluid text-center justify-content-center">
-					{articles.map(a => {
-						if (a.id <= 3) {
+					{articles.slice(0).reverse().map(a => {
+						if (a.id > (articles.length - 5)) {
 							return (
 							<div key={ a.id } className="row justify-content-center border-bottom">
 								<ArticleCard 

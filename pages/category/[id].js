@@ -140,7 +140,7 @@ export default function Topic({ topic, articles }) {
 				<div style={{ height: '15px', clear: 'both' }}></div>
 				<div className="row justify-content-center">
 					<ul className="list-unstyled col-12 col-md-8 fs-5">
-						{articles.map(a => (<div key={ a.slug } className="d-inline">
+						{articles.slice(0).reverse().map(a => (<div key={ a.slug } className="d-inline">
 							{(topics[a.topic] === topic.slug)? 
 								<li>
 									<Link href={ "/" + a.slug }><a className="text-decoration-none">{ a.title }</a></Link>

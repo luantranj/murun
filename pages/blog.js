@@ -143,7 +143,7 @@ export default function Blog({ articles }) {
 				<div style={{ height: '15px', clear: 'both' }}></div>
 				<div className="row justify-content-center fs-5">
 					<ul className="list-unstyled col-12 col-md-8">
-						{articles.map(a => (<div key={ a.id } className="d-inline">
+						{articles.slice().reverse().map(a => (<div key={ a.id } className="d-inline">
 							<li>
 								<Link href={ "/" + a.slug }><a className="text-decoration-none d-block">{ a.title }</a></Link>
 								<div style={{ height: '15px', clear: 'both' }}></div>
