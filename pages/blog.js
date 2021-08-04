@@ -51,25 +51,25 @@ export default function Blog({ articles }) {
 						<div style={{ height: '15px', clear: 'both' }}></div>
 						<ul className="list-inline fs-5">
 							<li className="list-inline-item">
-								<Link href="/category/training"><a className="text-decoration-none">Training</a></Link>
+								<Link href="/training"><a className="text-decoration-none">Training</a></Link>
 							</li>
 
 							<li className="list-inline-item fw-bold px-2">·</li>
 							
 							<li className="list-inline-item">
-								<Link href="/category/injuries"><a className="text-decoration-none">Injuries</a></Link>
+								<Link href="/injuries"><a className="text-decoration-none">Injuries</a></Link>
 							</li>
 
 							<li className="list-inline-item fw-bold px-2">·</li>
 							
 							<li className="list-inline-item">
-								<Link href="/category/running-equipment"><a className="text-decoration-none">Running Equipment</a></Link>
+								<Link href="/running-equipment"><a className="text-decoration-none">Running Equipment</a></Link>
 							</li>
 
 							<li className="list-inline-item fw-bold px-2">·</li>
 							
 							<li className="list-inline-item">
-								<Link href="/category/frequently-asked-questions"><a className="text-decoration-none">Frequently Asked Questions</a></Link>
+								<Link href="/frequently-asked-questions"><a className="text-decoration-none">Frequently Asked Questions</a></Link>
 							</li>
 						</ul>
 					</div> { /* col: end */ }

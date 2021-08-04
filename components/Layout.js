@@ -49,10 +49,10 @@ export default function Layout({ children }) {
 					<div className="col-md-3">
 						<h4>Learn</h4>
 						<ul className="list-unstyled d-grid gap-2">
-							<li><Link href="/category/training"><a className="link-light text-decoration-none">Training</a></Link></li>
-							<li><Link href="/category/injuries"><a className="link-light text-decoration-none">Injuries</a></Link></li>
-							<li><Link href="/category/running-equipment"><a className="link-light text-decoration-none">Equipment</a></Link></li>
-							<li><Link href="/category/frequently-asked-questions"><a className="link-light text-decoration-none">FAQs</a></Link></li>
+							<li><Link href="/training"><a className="link-light text-decoration-none">Training</a></Link></li>
+							<li><Link href="/injuries"><a className="link-light text-decoration-none">Injuries</a></Link></li>
+							<li><Link href="/running-equipment"><a className="link-light text-decoration-none">Equipment</a></Link></li>
+							<li><Link href="/frequently-asked-questions"><a className="link-light text-decoration-none">FAQs</a></Link></li>
 						</ul>
 						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
