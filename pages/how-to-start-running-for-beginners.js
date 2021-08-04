@@ -55,7 +55,7 @@ export default function Article({ data }) {
 		<div className="col-12 col-lg-10 col-xl-8 col-xxl-7">
 				<p>Running is a great way to raise your fitness level, and accomplish multiple goals that will improve your health and overall wellbeing.</p>
 				<p>While running may be overwhelming for beginners, it gets easier once you get the complete idea of the running routine and everything that goes with it.</p>
-				<p>I had troubles starting myself, especially because I&#8217;m flat footed, and I learned everything from scratch. Now, I&#8217;m going to transfer that knowledge to you.</p>
+				<p>I had troubles starting myself, especially because I&apos;m flat footed, and I learned everything from scratch. Now, I&apos;m going to transfer that knowledge to you.</p>
 				<ul>
 					<li><Link href="#the-benefits-of-running"><a className="text-decoration-none">The Benefits of Running</a></Link></li>
 					<li><Link href="#how-to-train"><a className="text-decoration-none">How to Train</a></Link></li>
@@ -83,7 +83,7 @@ export default function Article({ data }) {
 					alt='Benefits of Running' 
 					/>
 				</div>
-				<p><a href="https://www.betterhealth.vic.gov.au/health/healthyliving/running-and-jogging-health-benefits" target="_blank" rel="noopener">Running can improve your health significantly</a> if you make it your regular routine.
+				<p><a href="https://www.betterhealth.vic.gov.au/health/healthyliving/running-and-jogging-health-benefits" target="_blank" rel="noreferrer">Running can improve your health significantly</a> if you make it your regular routine.
 				</p>
 				<p>It raises the levels of good cholesterol in your blood, and it increases your lung capacity. It also helps in prevention of blood clots, and it boosts your immune system.</p>
 				<p>Running is in particular important for women, because it can reduce the risk of breast cancer. It also reduces the risk of stroke.</p>
@@ -112,10 +112,10 @@ export default function Article({ data }) {
 				<p>As a beginner,&nbsp;<Link href="https://empoweryourrun.com/running-5-miles-a-day/"><a className="text-decoration-none">I signed up for a race</a></Link>, and I can tell you that is very beneficial for the start.</p>
 				<p>Later, once you become more experienced, you will be able to develop a routine that you can follow alone.</p>
 				<p>You can run any race, just clear your schedule and stick to it.</p>
-				<p>Start with the shortest distance for a start. Find the race near you by using some of the race map websites, like&nbsp;<Link href="http://runningintheusa.com/race/overview"><a className="text-decoration-none" target="_blank">Running USA</a></Link>.</p>
+				<p>Start with the shortest distance for a start. Find the race near you by using some of the race map websites, like&nbsp;<Link href="http://runningintheusa.com/race/overview"><a className="text-decoration-none" target="_blank" rel="noreferrer">Running USA</a></Link>.</p>
 				<p>Maintaining a proper form is very important when you start running.</p>
 				<p>A lot of people are used to land on their heels while other lead with the toes.</p>
-				<p>None of these forms are bad, and it's always the best to keep your natural way of running, you will just need good shoes that have a lot of support.</p>
+				<p>None of these forms are bad, and it&apos;s always the best to keep your natural way of running, you will just need good shoes that have a lot of support.</p>
 				<p>I would advise you to start with the run-walk method for a start. This is a great way to increase your endurance and improve your running time.</p>
 				<p>You can pick whatever pace that fits you. I would recommend going for a run for 10-30 seconds, then walk for 1-2 minutes and repeat the rotation for as long as you can.</p>
 				<p>Try running 3 times a week for a start.</p>

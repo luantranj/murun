@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
 				<li>Google’s use of the DART cookie enables it to serve ads to users based on their visit to  
 					<Link href="/"><a className="text-decoration-none"> EmpowerYourRun</a></Link> and other sites on the Internet;</li>
 				<li>Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy at the following URL:    
-				<Link href="http://www.google.com/privacy_ads.html"><a className="text-decoration-none" target="_blank"> http://www.google.com/privacy_ads.html</a></Link>.</li>
+				<Link href="http://www.google.com/privacy_ads.html"><a className="text-decoration-none" target="_blank" rel="noreferrer"> http://www.google.com/privacy_ads.html</a></Link>.</li>
 			</ul>
 			<p>Some of my advertising partners may use cookies and web beacons on my site. My advertising partners include:</p>
 
@@ -80,10 +80,10 @@ export default function PrivacyPolicy() {
 			<p><Link href="/"><a className="text-decoration-none"> EmpowerYourRun</a></Link> has no access to or control over these cookies that are used by third-party advertisers.</p>
 
 			<p>You should consult the respective privacy policies of these third-party ad servers for more detailed information on their practices as well as for instructions about how to opt-out of certain practices.</p>
-			<p><Link href="/"><a className="text-decoration-none"> EmpowerYourRun</a></Link>’s privacy policy does not apply to, and I cannot control the activities of, such other advertisers or web sites.</p>
+			<p><Link href="/"><a className="text-decoration-none"> EmpowerYourRun</a></Link>&apos;s privacy policy does not apply to, and I cannot control the activities of, such other advertisers or web sites.</p>
 
 			<p>If you wish to disable cookies, you may do so through your individual browser options.</p>
-			<p>More detailed information about cookie management with specific web browsers can be found at the browsers’ respective websites.</p>
+			<p>More detailed information about cookie management with specific web browsers can be found at the browsers&apos; respective websites.</p>
 
 		</div> { /* col: end */ }
 	</div> { /* row: end */ }	

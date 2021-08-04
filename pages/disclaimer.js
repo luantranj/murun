@@ -29,9 +29,9 @@ export default function PrivacyPolicy() {
 					<h2 className="fw-bold">Amazon Associates Program</h2>
 					<div style={{ height: '15px', clear: 'both' }}></div>
 					<p><Link href="/"><a className="text-decoration-none"> EmpowerYourRun</a></Link> is a participant in the 
-					<Link href="https://www.amazon.com/"><a className="text-decoration-none" target="_blank"> Amazon</a></Link> Services LLC Associates Program,
+					<Link href="https://www.amazon.com/"><a className="text-decoration-none" target="_blank" rel="noreferrer"> Amazon</a></Link> Services LLC Associates Program,
 					an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to 
-					<Link href="https://www.amazon.com/"><a className="text-decoration-none" target="_blank"> Amazon.com.</a></Link></p>
+					<Link href="https://www.amazon.com/"><a className="text-decoration-none" target="_blank" rel="noreferrer"> Amazon.com.</a></Link></p>
 
 					<p><em>* Amazon and the Amazon logo are trademarks of Amazon.com, Inc., or its affiliates</em></p>
 
