@@ -77,13 +77,13 @@ export default function Article({ data }) {
 						<h2 id="the-benefits-of-running" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>The Benefits of Running</h2>
 						<div className="d-flex justify-content-center mb-5 shadow rounded">
 							<Image
-							src="https://res.cloudinary.com/muru/image/upload/v1628208660/how-to-start-running/running-benefits_uzf4ut.png" 
-							width="563" 
-							height="555"
-							alt='Benefits of Running' 
+								src="https://res.cloudinary.com/muru/image/upload/v1628208660/how-to-start-running/running-benefits_uzf4ut.png" 
+								width="563" 
+								height="555"
+								alt="Benefits of Running" 
 							/>
 						</div>
-						<p><a href="https://www.betterhealth.vic.gov.au/health/healthyliving/running-and-jogging-health-benefits" target="_blank" rel="noreferrer">Running can improve your health significantly</a> if you make it your regular routine.
+						<p><Link href="https://www.betterhealth.vic.gov.au/health/healthyliving/running-and-jogging-health-benefits"><a className="text-decoration-none" target="_blank" rel="noreferrer">Running can improve your health significantly</a></Link> if you make it your regular routine.
 						</p>
 						<p>It raises the levels of good cholesterol in your blood, and it increases your lung capacity. It also helps in prevention of blood clots, and it boosts your immune system.</p>
 						<p>Running is in particular important for women, because it can reduce the risk of breast cancer. It also reduces the risk of stroke.</p>
@@ -116,7 +116,7 @@ export default function Article({ data }) {
 						<p>&nbsp;</p>
 						<h2 id="choose-your-training-plan" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>Choose Your Training Plan</h2>
 						<p>
-							<Link href="http://www.coolrunning.com/engine/2/2_4/" target="_blank" rel="noreferrer"><a className="text-decoration-none">The internet is filled with various running fitness plans</a></Link>; I tried a lot of them, and I recommend that you start simple.
+							<Link href="http://www.coolrunning.com/engine/2/2_4/"><a className="text-decoration-none" target="_blank" rel="noreferrer">The internet is filled with various running fitness plans</a></Link>; I tried a lot of them, and I recommend that you start simple.
 						</p>
 						<p>Try this for a start:</p>
 						<ul>
@@ -280,7 +280,7 @@ export default function Article({ data }) {
 						<p>The best way to prevent the cramps is not to start faster than your standard running speed. If you do experience them, the treatment is very simple; you only need to stretch the cramped muscle.</p>
 						<p>Other common injuries happen to the feet, like&nbsp;<Link href="/dropped-metatarsal"><a className="text-decoration-none">dropped metatarsal</a></Link>.
 						&nbsp;Constant banging your feet and heels on the concrete can cause blisters, bruises, calluses and even the loss of toenails. 
-						Try to run on soft surfaces, and&nbsp;<Link href="/best-running-shoes-for-heel-pain"><a className="text-decoration-none">get the proper running gear</a></Link>.</p>
+						Try to run on soft surfaces, and&nbsp;<Link href="/running-equipment"><a className="text-decoration-none">get the proper running gear</a></Link>.</p>
 
 						<p>&nbsp;</p>
 						<h2 id="common-mistakes" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>Common Mistakes</h2>
@@ -311,15 +311,15 @@ export default function Article({ data }) {
 						<p>&nbsp;</p>
 						<h2 id="pro-tips" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>Pro Tips</h2>
 						<ul>
-						<li>Consult with your doctor before you start training. Getting the medical clearing is a smart decision, especially if you haven&apos;t been active before.</li>
-						&nbsp;
-						<li>Take enough time to recover between running sessions, so you give your body a chance to recuperate.</li>
-						&nbsp;
-						<li>Do strength training. Strength training is beneficial for your overall performance, especially to prevent the injuries.</li>
-						&nbsp;
-						<li>Work on flexibility. Being flexible is beneficial for injury prevention. There are a lot of ways you can improve your flexibility; yoga is one of the best ways to do it.</li>
-						&nbsp;
-						<li>If you injure yourself, be very patient and take time to recover. Even if the injury requires a few weeks to recover, don&apos;t rush yourself. By doing that you can only worsen the situation.</li>
+							<li>Consult with your doctor before you start training. Getting the medical clearing is a smart decision, especially if you haven&apos;t been active before.</li>
+							&nbsp;
+							<li>Take enough time to recover between running sessions, so you give your body a chance to recuperate.</li>
+							&nbsp;
+							<li>Do strength training. Strength training is beneficial for your overall performance, especially to prevent the injuries.</li>
+							&nbsp;
+							<li>Work on flexibility. Being flexible is beneficial for injury prevention. There are a lot of ways you can improve your flexibility; yoga is one of the best ways to do it.</li>
+							&nbsp;
+							<li>If you injure yourself, be very patient and take time to recover. Even if the injury requires a few weeks to recover, don&apos;t rush yourself. By doing that you can only worsen the situation.</li>
 						</ul>
 
 
@@ -342,12 +342,5 @@ export default function Article({ data }) {
 				</div> { /* row: end */ }
 			</div> { /* container: end */ }
 		</div>{ /* Article Content: end */ }
-
-		{ /* <a href="(.+)">(.+)</a> */}
-		{ /* <Link href="$1"><a className="text-decoration-none">$2</a></Link> */ }
-
-		{ /* (.+)\n(.+) */ }
-		{ /* <h2 id="$1" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>$2</h2> */ }
-
 	</>)
 }
