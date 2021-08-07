@@ -72,7 +72,7 @@ export default function Layout({ children }) {
 						<h4>Terms of Service</h4>
 						<ul className="list-unstyled d-grid gap-2">
 							<li><Link href="/privacy-policy"><a className="link-light text-decoration-none">Privacy Policy</a></Link></li>
-							<li><Link href="/disclaimer"><a className="link-light text-decoration-none">Disclaimer</a></Link></li>
+							<li><Link href="/disclaimer"><a className="link-light text-decoration-none">Earning Disclaimer</a></Link></li>
 						</ul>
 						<div style={{ height: '30px', clear: 'both' }}></div>
 					</div>
