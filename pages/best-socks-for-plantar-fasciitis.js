@@ -444,7 +444,7 @@ export default function Article({ data }) {
 						<h2 id="the-benefits-of-socks-for-plantar-fasciitis" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>The Benefits of Socks for Plantar Fasciitis</h2>
 						<p>Though compression socks don&apos;t provide the solid support that special running shoes do, they do help in alleviating pain and helping one perform their daily tasks despite the injury. There are a few key advantages that this item provides, so let&apos;s talk about them a bit:</p>
 						<h3 className="mt-5">Convenient</h3>
-						<p>Unlike shoes or insoles, these socks can usually be worn for the entire day as they do not cause discomfort to one's feet.</p>
+						<p>Unlike shoes or insoles, these socks can usually be worn for the entire day as they do not cause discomfort to one&apos;s feet.</p>
 						<p>In some cases, you can even wear them while you sleep.</p>
 						<p>You can also wear your regular socks on top of them so that they match your favorite outfit or clothing style.</p>
 						<h3 className="mt-5">Pain Relieving</h3>
