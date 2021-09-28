@@ -100,7 +100,7 @@ export default function Article({ data }) {
 						<p>&nbsp;</p>
 						<h2 id="how-to-train" className="fw-bold text-center mb-4" style={{ fontSize: '2.5rem' }}>How to Train</h2>
 						<p>The best way to stay dedicated to your cause is to sign up for a race. This way you will have a regular running schedule, and you will maintain your focus.</p>
-						<p>As a beginner,&nbsp;<Link href="https://empoweryourrun.com/running-5-miles-a-day/"><a className="text-decoration-none">I signed up for a race</a></Link>, and I can tell you that is very beneficial for the start.</p>
+						<p>As a beginner,&nbsp;<Link href="/running-5-miles-a-day"><a className="text-decoration-none">I signed up for a race</a></Link>, and I can tell you that is very beneficial for the start.</p>
 						<p>Later, once you become more experienced, you will be able to develop a routine that you can follow alone.</p>
 						<p>You can run any race, just clear your schedule and stick to it.</p>
 						<p>Start with the shortest distance for a start. Find the race near you by using some of the race map websites, like&nbsp;<Link href="http://runningintheusa.com/race/overview"><a className="text-decoration-none" target="_blank" rel="noreferrer">Running USA</a></Link>.</p>
