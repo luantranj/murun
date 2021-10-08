@@ -178,7 +178,7 @@ export default function Article({ data }) {
 						<h4 className="mt-3">Walking</h4>
 						<p>You know what they say: You have to walk before you can run.</p>
 						<p>So, start moving &ndash; every day, as much as you can, without pushing yourself too hard, of course.</p>
-						<p>With time, you&apos;ll notice that bearing weight isn't a problem anymore.</p>
+						<p>With time, you&apos;ll notice that bearing weight isn&apos;t a problem anymore.</p>
 						<p>Take that as the first sign that complete recovery is just around the corner.</p>
 
 						<h4 className="mt-3">Strengthening Exercises</h4>
