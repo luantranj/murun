@@ -78,7 +78,7 @@ export default function Article({ data }) {
 									</ul>
 							</ul>
 							<li><Link href="#what-size-of-the-ace-bandage-you-should-use"><a className="text-decoration-none">What Size Of The Ace Bandage You Should Use</a></Link></li>
-							<li><Link href="#dos-and-donts"><a className="text-decoration-none">Do’s and Don'ts</a></Link></li>
+							<li><Link href="#dos-and-donts"><a className="text-decoration-none">Do&apos;s and Don&apos;ts</a></Link></li>
 							<li><Link href="#what-if-the-ace-bandage-does-not-work"><a className="text-decoration-none">What If The Ace Bandage Does Not Work</a></Link></li>
 							<li><Link href="#conclusion"><a className="text-decoration-none">Conclusion</a></Link></li>
 						</ul>
