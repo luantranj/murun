@@ -150,7 +150,7 @@ export default function Article({ data }) {
 						<p>This means slimmer legs as well!</p>
 						<p>Carbohydrates are bad for people trying to lose weight for one more reason- they increase the appetite and create a sort of addiction.</p>
 						<p>The more you eat them the more you crave them as your <Link href="http://studenthealth.emory.edu/hs/health_topics/what_is_insulin_resistance.pdf"><a className="text-decoration-none" target="_blank" rel="nofollow noopener noreferrer">insulin levels rise</a></Link>.</p>
-						<p>If you eat more calories than you actually spend you exceed the total daily calorie energy expenditure and gain weight rather than lose it- and we all know that thighs are one of the most critical zone of woman's body.</p>
+						<p>If you eat more calories than you actually spend you exceed the total daily calorie energy expenditure and gain weight rather than lose it- and we all know that thighs are one of the most critical zone of woman&apos;s body.</p>
 						<p>If you want to make your legs bigger by gaining muscles, you do need to take some extra calories in but make sure that they come from protein rich food as that will speed up the muscle growth process.</p>
 
 						<p>&nbsp;</p>
