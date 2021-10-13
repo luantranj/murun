@@ -78,7 +78,7 @@ export default function Article({ data }) {
 						<p>How do they work?</p>
 						<p>Are there different types that suit different needs of a runner who uses them?</p>
 						<p>Well, it is quite simple really.</p>
-						<p>Ankle weights are a piece of fitness equipment, designed as weighted clothing that you fix above your ankle, or around <Link href="/best-running-shoes-for-achilles-tendonitis"><a className="text-decoration-none">the Achilles' tendon</a></Link> and lower shin to be precise.</p>
+						<p>Ankle weights are a piece of fitness equipment, designed as weighted clothing that you fix above your ankle, or around <Link href="/best-running-shoes-for-achilles-tendonitis"><a className="text-decoration-none">the Achilles&apos; tendon</a></Link> and lower shin to be precise.</p>
 						<p>The central role of these weights is to make your body muscles work harder by adding the weight to your ankle region.</p>
 						<p>As you can see, I said &ldquo;body muscles&rdquo; and not just &ldquo;leg muscles&rdquo;.</p>
 						<p>This is an important note to make because as you will see later on, ankle weights activate various muscles in your body.</p>
