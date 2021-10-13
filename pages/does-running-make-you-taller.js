@@ -162,9 +162,9 @@ export default function Article({ data }) {
 						<h3 className="mt-5">4. Avoiding growth repressors</h3>
 						<p>There are some substances that inhibit your growth such as:</p>
 						<ul>
-							<li className="mb-3"><a href="https://www.drugabuse.gov/drugs-abuse" target="_blank" rel="noopener">Drugs</a></li>
+							<li className="mb-3"><Link href="https://www.drugabuse.gov/drugs-abuse"><a className="text-decoration-none" target="_blank" rel="nofollow noopener noreferrer">Drugs</a></Link></li>
 							<li className="mb-3">Alcohol</li>
-							<li className="mb-3"><a href="https://www.drugabuse.gov/publications/tobacco-nicotine-e-cigarettes/nicotine-addictive" target="_blank" rel="noopener">Nicotine</a></li>
+							<li className="mb-3"><Link href="https://www.drugabuse.gov/publications/tobacco-nicotine-e-cigarettes/nicotine-addictive"><a className="text-decoration-none" target="_blank" rel="nofollow noopener noreferrer">Nicotine</a></Link></li>
 							<li className="mb-3">Stressful and sedentary lifestyle can also have a negative impact on your height</li>
 						</ul>
 
