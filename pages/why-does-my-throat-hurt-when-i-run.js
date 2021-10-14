@@ -106,7 +106,7 @@ export default function Article({ data }) {
 						<p><Link href="https://www.webmd.com/heartburn-gerd/guide/laryngopharyngeal-reflux-silent-reflux#1"><a className="text-decoration-none" target="_blank" rel="nofollow noopener noreferrer">Silent reflux</a></Link>, also known as laryngopharyngeal reflux, doesn&rsquo;t include heartburn and it is more difficult to diagnose.</p>
 						<p>Common symptoms may include hoarseness, a feeling of a lump in your throat, constant coughing, apnea, trouble swallowing and more.</p>
 						<p>Solutions to this problem can be various.</p>
-						<p>If your acid reflux is only triggered by running, you might want to <Link href="/how-to-start-running-for-beginners"><a className="text-decoration-none" target="_blank" rel="nofollow noopener noreferrer">improve your running form</a></Link>, so you bounce less and that might be enough to help it clear up.</p>
+						<p>If your acid reflux is only triggered by running, you might want to <Link href="/how-to-start-running-for-beginners"><a className="text-decoration-none">improve your running form</a></Link>, so you bounce less and that might be enough to help it clear up.</p>
 						<p>Your stomach will stop rising up so far, and the acid will stop rising up as a result.</p>
 						<p>However, it can be far more difficult than that to get rid of acid reflux.</p>
 						<p>If this solution doesn&rsquo;t help, visit your doctor and get diagnosed.</p>
