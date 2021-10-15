@@ -138,7 +138,7 @@ export default function Article({ data }) {
 								alt="foot deformation medical desease infographic valgus" 
 							/>
 						</div>
-						<p>To ensure maximum stability of the foot while standing, walking or running, a healthy foot should normally rest on the ground in ''tripod foot'' position (heel, little toe joint, and big toe joint standing on the ground).</p>
+						<p>To ensure maximum stability of the foot while standing, walking or running, a healthy foot should normally rest on the ground in &quot;tripod foot&quot; position (heel, little toe joint, and big toe joint standing on the ground).</p>
 						<p>This position allocates the weight of your body equally between the inner and outer bones of your forefoot and heel.</p>
 						<p>But as I said, the forefoot varus only have two points of contact with the ground.</p>
 						<p>That leads to compromising the alignment of the ankle, knees, hips, and back and that situation can cause a lot of damage:</p>
